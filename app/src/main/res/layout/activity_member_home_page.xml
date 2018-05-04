@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    tools:context="com.example.asd.com.healthcare.MemberHomePageActivity">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="#4A148C"
+        android:orientation="vertical"
+        >
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="4dp"
+            android:gravity="center"
+            android:onClick="prfileDetais"
+            android:background="@drawable/tranfarent_hr"
+            android:src="@drawable/profilemale"
+            android:id="@+id/imgProfilePic"
+            >
+        </ImageButton>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="Admin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/tvProfileName"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="3dp"
+            android:layout_height="62dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:src="@drawable/profileage"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.1"
+                        android:id="@+id/tvProfileAge"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:text="10"
+                        android:paddingRight="2dp"
+                        android:gravity="right"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="11sp"
+                        android:paddingLeft="4dp"
+                        android:textColor="@color/white"
+                        android:layout_weight=".9"
+                        android:gravity="left"
+                        android:text="year"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:src="@drawable/profileheigth"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.1"
+                        android:id="@+id/tvProfileHieght"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:text="5`4"
+                        android:paddingRight="2dp"
+                        android:gravity="right"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="11sp"
+                        android:paddingLeft="4dp"
+                        android:textColor="@color/white"
+                        android:layout_weight=".8"
+                        android:gravity="left"
+                        android:text="ft"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:src="@drawable/profileweigth"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.1"
+                        android:id="@+id/tvProfileWeight"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:text="10"
+                        android:paddingRight="2dp"
+                        android:gravity="right"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="11sp"
+                        android:paddingLeft="4dp"
+                        android:textColor="@color/white"
+                        android:layout_weight=".8"
+                        android:gravity="left"
+                        android:text="kg"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewIdAddprofile"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="16dp"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:background="#019dd8"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:background="@drawable/dietchart"
+                        android:text=" Deit"
+                        android:onClick="memberDiet"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="#9b25af"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" Vaccine"
+                        android:background="@drawable/vaccine"
+                        android:onClick="memberVaccine"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:background="#ff760d"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:background="@drawable/memberdoctor"
+                        android:text=" Doctor"
+                        android:onClick="Doctor"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="#b50937"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" Hospital"
+                        android:background="@drawable/hospital"
+                        android:onClick="familyHospital"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="4dp"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:background="#00d700"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:background="@drawable/healthcare"
+                        android:text=" Health Care"
+                        android:onClick="ProfileHealthCare"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:background="#fec901"
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="bottom"
+                        android:textColor="@color/white"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text=" Health Tips"
+                        android:background="@drawable/healthtipss"
+                        android:onClick="familyHealthTips"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

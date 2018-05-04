@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asd.com.healthcare">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetPinActivity"
+            android:label="" />
+        <activity
+            android:name=".PinValidityCheckActivity"
+            android:label="" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="" />
+        <activity
+            android:name=".AddProfileActivity"
+            android:label="" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="" />
+        <activity
+            android:name=".ProfileDetailsActivity"
+            android:label="" />
+        <activity
+            android:name=".EditProfile"
+            android:label="" />
+        <activity
+            android:name=".CreateAdminProfileActivity"
+            android:label="" />
+        <activity
+            android:name=".MemberHomePageActivity"
+            android:label="" />
+        <activity
+            android:name=".MemberDietActivity"
+            android:label="" />
+        <activity
+            android:name=".Adddiet"
+            android:label="" />
+        <activity
+            android:name=".TodaysDiet"
+            android:label="" />
+        <activity
+            android:name=".EditDiet"
+            android:label="" />
+        <activity
+            android:name=".PreviousDiet"
+            android:label="" />
+        <activity
+            android:name=".UpComingDiet"
+            android:label="" />
+        <activity
+            android:name=".AddVaccine"
+            android:label="" />
+        <activity
+            android:name=".MemberVaccineActivity"
+            android:label="" />
+        <activity
+            android:name=".TodaysVaccine"
+            android:label="" />
+        <activity
+            android:name=".PreviousVaccine"
+            android:label="" />
+        <activity
+            android:name=".UpComingVaccine"
+            android:label="" />
+        <activity
+            android:name=".EditVaccine"
+            android:label="" />
+        <activity
+            android:name=".AddDoctor"
+            android:label="" />
+        <activity
+            android:name=".DoctorList"
+            android:label="" />
+        <activity
+            android:name=".DoctorDetailsActivity"
+            android:label="" />
+        <activity
+            android:name=".EditDoctor"
+            android:label="" />
+        <activity
+            android:name=".MemberDoctorActivity"
+            android:label="" />
+
+        <receiver
+            android:name=".RemainderNotifications"
+            android:label="" />
+
+        <activity
+            android:name=".HospitalList"
+            android:label="" />
+        <activity
+            android:name=".HospitalDoctor"
+            android:label="" />
+        <activity
+            android:name=".AddHospital"
+            android:label="" />
+        <activity
+            android:name=".HospitalDetailsActivity"
+            android:label="" />
+        <activity
+            android:name=".EditHospital"
+            android:label="" />
+        <activity
+            android:name=".HealthTips"
+            android:label="" />
+        <activity
+            android:name=".HealthCare"
+            android:label="" />
+        <activity
+            android:name=".DietChartList"
+            android:label="" />
+        <activity
+            android:name=".MemberSetPin"
+            android:label="" />
+        <activity android:name=".ChangeAdminPinCode"
+            android:label=""
+            />
+        <activity android:name=".MedicalHistory"
+            android:label=""
+            />
+        <activity android:name=".AddPrescription"
+            android:label=""
+            ></activity>
+    </application>
+
+</manifest>

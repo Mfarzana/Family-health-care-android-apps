@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rootContent"
+    android:background="@drawable/input_field_tost_img"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/inputFieldTostTextMES"
+        android:text="Please fill out this field."
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        >
+        </TextView>
+
+</LinearLayout>

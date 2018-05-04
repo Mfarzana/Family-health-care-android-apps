@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Family Health Care</string>
+    <string name="spinner_title">Select Blood Group</string>
+    <string name="blood_spinner_title">Select Blood Group</string>
+    <string name="relation_spinner_title">Select relation</string>
+    <string name="tittle">"Let's Start a Healthy Life"</string>
+    <string name="tittleone">"Get a Detailed Plan."</string>
+
+    <string name="fastpage">"Life routine depending on lifestyle.By flowing some simple tips lifestyle became healther. Here some tips that you can flow."</string>
+
+    <string name="one">"It has to be as clear and as detailed as humanly possible.It'll be hard enough to stick to any kind of routine if you are not used to exercise and dietary restrictions, so you shouldn't make it harder by wondering every now and then what's next.Ideally you want something that'll give you day-by-day instructions and if you don't have it ready, sit down and put your own schedule together.The more vague the instructions the more likely you are to stray and give up.Make it easy for yourself to continue on the program you chose or designed for yourself and you’ll have higher chances of showing up.</string>
+
+    <string name="tittletwo">"Begin With Small"</string>
+
+    <string name="two">"What you really need is to change your habits,and how you feel and look will change on their own. The moment you concentrate on the action and not on the end result is when you truly transform, inside and out. Start with small changes in your diet and exercise habits, start by eating better and adding a few squats and planks into your daily routine or pick up a 30-day challenge.It is important that you stick to the small things first, before you demand anything more radical from yourself.The harder you push from the start the harder it’ll be to stay on track."</string>
+
+    <string name="tittlethree">"Find The Right Activity For Yourself."</string>
+
+    <string name="three">"If you push yourself into something you absolutely hate doing, your commitment however strong to begin with, will very soon wear off.You need to try and find the right thing for yourself, an activity you’ll love or can learn to love.Perhaps running will be the thing for you, or boxing or bodyweight training–you won’t know for sure until you try.So go for a run, do a martial art session, try a routine online until you stumble upon the right one for yourself.The more you try, the higher the chances of finding the one." </string>
+
+    <string name="tittlefour">"Start a Log."</string>
+
+    <string name="four">"It’s important that you write down everything you do and eat and make yourself accountable for every action or non-action during your fitness journey.Record absolutely everything including the small things like diet,medical report,etc.</string>
+
+    <string name="tittlefive">"Do It For 30 Days."</string>
+
+    <string name="five">"That’s about how long it takes to build a habit-roughly a month.And if you can stick to something for as long as that the chances are you’ll get into a routine of making better choices naturally and without thinking about it later on.Don’t think about it as something you have to do for four weeks and just take it one day at a time.It’ll help if you keep a log and cross days out on the calendar to keep yourself accountable."</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="backgroundhome">#eeeeee</color>
+
+    <color name="silver">#C0C0C0</color>
+
+    <color name="gray">#808080</color>
+
+    <color name="black">#000000</color>
+
+    <color name="red">#FF0000</color>
+
+    <color name="maroon">#800000</color>
+
+    <color name="yellow">#FFFF00</color>
+
+    <color name="olive">#808000</color>
+
+    <color name="lime">#00FF00</color>
+
+    <color name="green">#008000</color>
+
+    <color name="aqua">#00FFFF</color>
+
+    <color name="orenge">#ff6700</color>
+
+    <color name="blue">#0000FF</color>
+
+    <color name="darkblue">#00008B</color>
+
+    <color name="backbody1">#ADD8E6</color>
+
+    <color name="navy">#000080</color>
+
+    <color name="fuchsiya">#FF00FF</color>
+
+    <color name="purple">#800080</color>
+
+    <color name="transfarent">#0000</color>
+
+    <color name="golden">#FFC300</color>
+
+    <color name="lessred">#581845</color>
+
+    <color name="button">#1E90FF</color>
+
+    <color name="buttontextcolor">#FFFFFF</color>
+
+    <color name="inputfiledtextcolor">#581845</color>
+
+</resources>

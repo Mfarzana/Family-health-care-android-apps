@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundhome"
+    android:orientation="vertical"
+    tools:context="com.example.asd.com.healthcare.EditDiet">
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewIdAddprofile"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="6dp"
+                android:paddingTop="11dp"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Breakfast"
+                        android:textColor="#ff760d"
+                        android:textSize="15sp"
+                        android:id="@+id/breckfastRbutton"
+                        android:onClick="dietRbutton"
+                        android:layout_weight="1.15"
+
+                        />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lunch"
+                        android:textColor="#ff760d"
+                        android:id="@+id/lunchRbutton"
+                        android:textSize="15sp"
+                        android:onClick="dietRbutton"
+                        android:layout_weight="1"
+                        />
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff760d"
+                        android:text="Dinner"
+                        android:textSize="15sp"
+                        android:id="@+id/dinerRbutton"
+                        android:onClick="dietRbutton"
+                        android:layout_weight="1"
+                        />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/viewGroup"
+                >
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="  Menu :"
+                    android:textColor="@color/inputfiledtextcolor"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/etMenu"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="  Date :"
+                    android:textColor="@color/inputfiledtextcolor"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:id="@+id/btDatePicker"
+                    android:paddingLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Set Date"
+                    android:paddingTop="14dp"
+                    android:gravity="left"
+                    android:onClick="setDate"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingBottom="3dp"
+                android:paddingTop="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:text="  Time :"
+                    android:textColor="@color/inputfiledtextcolor"
+                    android:gravity="left"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:id="@+id/btTimePicker"
+                    android:paddingLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Set Time"
+                    android:paddingTop="14dp"
+                    android:gravity="left"
+                    android:onClick="setTate"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingBottom="11dp"
+                android:paddingTop="11dp"
+                android:paddingLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Daily Alarm"
+                        android:paddingRight="20dp"
+                        android:textSize="15sp"
+                        android:id="@+id/deitAlam"
+                        android:onClick="alamRbutton"
+                        android:layout_weight="1"
+                        />
+
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Remainder"
+                        android:textSize="15sp"
+                        android:id="@+id/dietRemainder"
+                        android:onClick="alamRbutton"
+                        android:layout_weight="1"
+                        />
+
+
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff760d"
+                android:paddingBottom="11dp"
+                android:paddingTop="11dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Save Diet"
+                android:onClick="saveDiet"
+                android:textColor="@color/buttontextcolor"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+
+                android:id="@+id/btCreatProfile"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
